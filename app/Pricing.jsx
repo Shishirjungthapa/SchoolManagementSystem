@@ -8,7 +8,7 @@ return(
     <>
     <div className="relative flex flex-col w-full h-full gap-20 px-6 py-20 mt-32 md:px-10 overflow-x-clip">
                 <div className="absolute inset-0 w-[110vw] sm:w-[90vw] md:w-[99vw] h-[80vh] sm:h-auto md:h-auto lg:h-[160vh] lg:w-[98.9vw] overflow-x-hidden">
-                    <img src="images/pricebg.svg" className="object-cover w-full h-full" alt="Background Product SVG" />
+                    <img src="/images/pricebg.svg" className="object-cover w-full h-full" alt="Background Product SVG" />
                 </div>
         <div className="flex flex-col gap-10 px-10 text-center md:px-36">
         <h1 className="text-xl font-semibold text-center lg:text-3xl md:text-2xl text-homeblue">Select the best plan for your System</h1>

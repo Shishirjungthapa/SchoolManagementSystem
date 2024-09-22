@@ -96,7 +96,7 @@ function Faq() {
                 {/* Accordion Component */}
                 <div className='relative flex flex-col w-full h-full px-10 py-0 pb-5 mt-0 md:py-20 md:px-10 lg:px-40 overflow-x-clip'>
                     <div className="absolute inset-0 w-[110vw] sm:w-[90vw] md:w-[99vw] h-[80vh] sm:h-auto md:h-auto lg:h-[160vh] lg:w-[98.9vw] overflow-x-hidden">
-                        <img src="images/pricebg.svg" className="object-cover w-full h-full" alt="Background Product SVG" />
+                        <img src="/images/pricebg.svg" className="object-cover w-full h-full" alt="Background Product SVG" />
                     </div>
                     <div className="flex flex-col items-center justify-center w-full h-full gap-2 md:flex-row">
                         <div className="w-1/2 md:w-2/5">

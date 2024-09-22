@@ -7,7 +7,7 @@ export const metadata = {
   keywords: 'School Management System, Education Software, Secure Cloud Storage, College Software, School Management',
   author: 'Nepal Web Studio',
   icons: {
-    icon: '/favicon.ico'
+    icon: '/images/webstudionepal.png'
   }
 };
 

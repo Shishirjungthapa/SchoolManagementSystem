@@ -1,5 +1,8 @@
-import Navbar from "../components/navbar";
-import studioData from "../data/aboutstudioData";
+import AboutusBanner from "@/app/components/AboutusBanner";
+import Footer from "../../components/Footer";
+import { OrbitingCirclesDemo } from "../../components/OrbitingCircle";
+import studioData from "../../data/aboutstudioData";
+import Faq from "../../Faq";
 export const metadata = {
   title: 'Home - School Management System',
   description: 'Welcome to the School Management System About Us page.',
@@ -9,15 +12,7 @@ export default function AboutUsPage() {
   return (
     <div className="flex flex-col w-full h-full gap-10">
       {/* Banner Section */}
-      <div className="bg-gradient-to-r from-aboutbannerFirst to-aboutbannerSecond md:h-[60dvh] h-[50dvh]">
-        <Navbar />
-        <div className="relative flex justify-center lg:px-[25%] md:px-[5%] px-[10%] lg:py-28 md:py-32 py-48">
-          <h1 className="text-xl text-center text-white lg:text-4xl md:text-3xl">
-            Experience The Ultimate Wave Of Digitalization Through Web Studio Nepal School Software
-          </h1>
-        </div>
-      </div>
-
+      <AboutusBanner/>
       {/* About Section */}
       <div className="flex flex-col gap-10 pb-10">
         <div className="flex flex-row justify-start lg:gap-5 md:gap-4 gap-2 lg:pl-[8%] md:pl-[6%] pl-[3%] pt-14">
@@ -43,14 +38,14 @@ export default function AboutUsPage() {
       <div className="relative mt-40">
         <div className="absolute inset-0 w-full h-[80vh] md:h-[100vh] lg:h-[160vh] overflow-hidden">
           <img
-            src="images/pricebg.svg"
+            src="/images/pricebg.svg"
             className="object-cover w-full h-full"
             alt="Background Product SVG"
           />
         </div>
         <div className="relative flex flex-col items-center justify-center h-full">
           <img
-            src="images/aboutchoose.png"
+            src="/images/aboutchoose.png"
             className="object-cover w-full h-auto -mt-20 md:-mt-44"
             alt="Why Choose Us"
           />
@@ -97,6 +92,34 @@ export default function AboutUsPage() {
           </div>
         </div>
       </div>
+      <div className="relative flex flex-col mt-20">
+        <div className="flex justify-center pt-10">
+          <h1 className="text-2xl font-semibold text-black lg:text-5xl md:text-4xl">What Our Client Think About Us?</h1>
+        </div>
+        <div className="relative">
+          <div className="absolute inset-0 w-full h-[80vh] md:h-[100vh] lg:h-[160vh] overflow-hidden">
+            <img
+              src="/images/aboutclientbg.svg"
+              className="object-cover w-full h-full"
+              alt="Background Product SVG"
+            />
+          </div>
+          <div className="relative z-10">
+            <OrbitingCirclesDemo/>
+          </div>
+        </div>
+        <div className="relative w-full h-full lg:px-[30%] md:px-[20%] px-[10%]">
+          <div className="flex flex-col items-center bg-white justify-center gap-2 shadow-xl py-[4%] pl-[3%] pr-[2%]">
+          <p className="text-sm text-center md:text-base text-textMain">Build your financial literacy within a transparent community. Follow other investors, share insights with people from different professional backgrounds, and never be alone.</p>
+          <p className="text-base font-bold md:text-lg">John Scotty</p>
+          <p className="text-sm font-semibold md:text-base">Ui Designer</p>
+          </div>
+        </div>
+      </div>
+      <div className="-mt-20">
+      <Faq/>
+      </div>
+      <Footer/>
     </div>
   );
 }
