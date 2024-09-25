@@ -12,7 +12,7 @@ export default function AboutUsPage() {
   return (
     <div className="flex flex-col w-full h-full gap-10">
       {/* Banner Section */}
-      <AboutusBanner/>
+      <AboutusBanner text="Experience The Ultimate Wave Of Digitalization Through Web Studio Nepal School Software"/>
       {/* About Section */}
       <div className="flex flex-col gap-10 pb-10">
         <div className="flex flex-row justify-start lg:gap-5 md:gap-4 gap-2 lg:pl-[8%] md:pl-[6%] pl-[3%] pt-14">

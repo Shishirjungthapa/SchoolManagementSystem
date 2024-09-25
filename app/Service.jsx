@@ -21,7 +21,7 @@ function Service() {
                                     {service.icon}
                                 </div>   
                                 <span className="text-center">{service.title}</span>
-                                <button className="absolute bottom-[-18px] left-1/2 transform -translate-x-1/2 w-24 text-sm text-white rounded-lg bg-homeviolet h-9">
+                                <button className="absolute bottom-[-18px] left-1/2 transform -translate-x-1/2 w-24 text-sm rounded-lg h-9 text-white shadow-lg shadow-[#FB707073] bg-homeviolet md:text-base font-semibold hover:bg-white hover:text-homeviolet hover:scale-110 transition-all ease-in-out duration-500 hover:shadow-slate-100">
                                     More
                                 </button>
                             </div>

@@ -14,7 +14,7 @@ export default function WhyWebStudio(){
     return(
 
         <div className="flex flex-col w-full h-full gap-10 overflow-x-hidden">
-            <AboutusBanner/>
+            <AboutusBanner text="A User-Friendly And Affordable Web Based School Management System"/>
             <div className="w-full h-full">
                 <div className="flex flex-col items-center justify-center gap-20 px-5 lg:px-14 md:px-8">
                     <h1 className="text-xl font-semibold text-center lg:text-3xl md:text-2xl">Why Web Studio Nepal ERP Software?</h1>
@@ -61,16 +61,21 @@ export default function WhyWebStudio(){
                     </p>
                 </div>
                 <div className="relative w-full h-full mt-16">
-                    <div className="absolute inset-0 w-full h-[80vh] md:h-[100vh] lg:h-[150vh] overflow-hidden">
+                    <div className="absolute inset-0 w-full h-[80vh] md:h-[100vh] lg:h-[170vh] overflow-hidden">
                         <img
                         src="/images/pricebg.svg"
                         className="object-cover w-full h-full"
                         alt="Background Product SVG"/>
                     </div>
-                    <div className="relative grid h-full grid-cols-2 gap-5 px-6 pt-20 lg:gap-10 md:gap-8 lg:px-16 md:px-10 md:grid-cols-3">
+                    <div className="flex items-center justify-center">
+                        <h1 className="text-2xl tracking-wider uppercase lg:text-5xl md:text-4xl text-homeblue">------Our Services------</h1>
+                    </div>
+                    <div className="relative grid h-full grid-cols-2 gap-5 px-6 pt-20 lg:gap-x-36 md:gap-x-20 lg:gap-y-16 md:gap-y-12 lg:px-[10%] md:px-10 md:grid-cols-3">
                         {studioFeaturesData.map((data, index) =>(
-                            <div key={index} className="flex flex-col items-center justify-center w-auto h-full gap-5 px-6 py-3 bg-white shadow-xl lg:py-8 md:py-6 rounded-xl md:h-72" >
-                                <h1 className="text-sm font-semibold text-center md:text-base lg:text-xl">{data.title}</h1>
+                            <div key={index} className={`flex flex-col items-center justify-center w-auto h-full gap-5 px-6 py-3 shadow-xl lg:py-8 md:py-6 rounded-sm md:h-72 ${
+                                index % 3 === 1 ? 'bg-homeviolet text-white' : 'bg-white text-gray-600'
+                              }`} >
+                                <h1 className="text-sm font-semibold text-center md:text-base lg:text-lg">{data.title}</h1>
                                 <p className="text-xs font-medium text-center lg:text-base md:text-sm">{data.description}</p>
                                 </div>
 

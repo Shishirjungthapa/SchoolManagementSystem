@@ -23,7 +23,8 @@ export default {
         homeviolet:"#B6116B",
         aboutbannerFirst: "#2F1472",
         aboutbannerSecond: "#9D28B1",
-        aboutgreen: "#09FBD3"
+        aboutgreen: "#09FBD3",
+        featuresTextMain: "#000D2F"
       },
       animation: {
         orbit: "orbit calc(var(--duration)*1s) linear infinite",

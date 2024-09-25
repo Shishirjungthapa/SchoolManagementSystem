@@ -5,11 +5,13 @@ const features = [
     icon: <FamilyRestroomOutlinedIcon />,
     title: 'Parental Control',
     description: 'This is a brief description of Feature One.This is a brief description of Feature One.This is a brief description of Feature One ',
+    id: 'parentalcontrol'
   },
   {
     icon: <AssignmentOutlinedIcon />,
     title: 'Assignments',
     description: 'This is a brief description of Feature Two.This is a brief description of Feature One.This is a brief description of Feature One',
+    id: 'assignments',
   },
   {
     icon: <FamilyRestroomOutlinedIcon />,
