@@ -107,3 +107,31 @@ export const toolsData =[
         description:"Web Studio Nepal has a well-defined incident response plan in place to quickly address any security breaches, minimizing potential risks and ensuring swift recovery.",
       },
   ]
+
+  export const supportData = [
+
+    {title:"Continous Assistance",
+    image: <img src='/images/featureicon1.svg' alt='device flexibility'/>,
+    description:"Web Studio Nepal offers round-the-clock support, ensuring that schools receive assistance whenever needed, whether it's during the school day or late at night. This 24/7 availability provides peace of mind for users, knowing help is just a call or message away.",
+    },
+    {title:"Technical Issue Resolution",
+      image: <img src='/images/featureicon2.svg' alt='Easy Access'/>,
+      description:"The platform's support team is ready to tackle any technical issues that arise, from minor bugs to critical errors. Immediate resolution ensures the platform functions smoothly, preventing disruptions to essential school activities.",
+    },
+    {title:"Query Handling",
+      image: <img src='/images/featureicon3.svg' alt='Convinient'/>,
+      description:"In addition to technical support, the team addresses a wide range of user queries. Whether it’s a question about navigating the platform or understanding certain features, teachers, administrators, and parents can rely on quick and helpful responses.",
+    },
+    { title:"Minimized Downtime",
+      image: <img src='/images/featureicon4.svg' alt='Easily Available'/>,
+      description:"With continuous support, any technical issues or operational problems are handled promptly, which minimizes platform downtime. This ensures the system remains reliable and accessible when it’s most needed, maintaining workflow continuity for schools.",
+    },
+    {  title:"Improve User Confidence",
+       image: <img src='/images/featureicon5.svg' alt='Real Time Update'/>,
+       description:"Knowing that support is always available boosts confidence in the platform among all users. This ensures that teachers, administrators, and parents feel secure in their use of Web Studio Nepal, enhancing overall user satisfaction and trust in the system.",
+      },
+      { title:"Proactive Problem-Solving",
+        image: <img src='/images/featureicon6.svg' alt='Compatible across multiple platform'/>,
+        description:"The support team also takes a proactive approach by identifying and addressing potential issues before they affect users. Regular updates and system checks ensure that the platform runs smoothly, preventing future problems from arising.",
+      },
+  ]

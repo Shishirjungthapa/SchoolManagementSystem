@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef } from 'react';
+import React, { useEffect } from 'react';
 import features from './data/featuresData';
 import { useRouter } from 'next/navigation';
 
@@ -8,9 +8,10 @@ function FeaturesGrid() {
   const router = useRouter();
 
   const handleNavigate = (id) => {
-    router.push(`/features#${id}`);
+      router.push(`/features#${id}`);
   };
 
+  
   return (
     <div className="flex flex-col items-center w-full h-full gap-10 pt-10 pb-16 overflow-x-hidden overflow-y-hidden bg-transparent">
       <div
