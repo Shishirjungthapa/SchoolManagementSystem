@@ -34,7 +34,7 @@ function FeaturesGrid() {
         <p className="text-sm md:text-sm lg:text-base">
           Nepal WebStudio is a comprehensive school management system that meets
           all your academic and administrative needs. From admissions to exams,
-          fee collection, and payroll, Vidyalaya streamlines processes, making
+          fee collection, and payroll, Out Software streamlines processes, making
           school management hassle-free.
         </p>
       </div>

@@ -53,7 +53,7 @@ const menus = [
     icon: <MarkUnreadChatAltOutlinedIcon />,
     secondIcon: null,
     title: 'Testimonials',
-    link: '/testimonials',
+    link: '',
     secondaryMenu: null,
 
   },
@@ -61,7 +61,7 @@ const menus = [
     icon: <MonetizationOnOutlinedIcon />,
     secondIcon: null,
     title: 'Pricing',
-    link: '/pricing',
+    link: '',
     secondaryMenu: null,
 
   },
@@ -69,7 +69,7 @@ const menus = [
     icon: <QuestionAnswerOutlinedIcon />,
     secondIcon: null,
     title: 'FAQ',
-    link: '/faqs',
+    link: '',
     secondaryMenu: null,
 
   },

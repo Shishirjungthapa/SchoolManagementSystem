@@ -15,18 +15,18 @@ function Footer() {
         </div>
 
         <div className="flex flex-col px-0 py-8 text-white md:px-10 lg:px-20 bg-gradient-to-r from-primary to-secondary md:gap-y-16 gap-y-10">
-          <div className="flex flex-row w-full h-auto gap-8 px-5 lg:gap-16 md:gap-8 justify-evenly lg:px-20 md:px-2">
+          <div className="flex flex-row-reverse items-center w-full h-auto gap-8 px-5 lg:gap-16 md:gap-8 justify-evenly lg:px-20 md:px-2">
             <div className="flex justify-start w-1/3 md:w-1/2">
               <Image
-                src="/images/webstudionepal.png"
+                src="/images/webstudiologo.png"
                 alt="Web studio nepal"
-                width={110}
-                height={110}
+                width={120}
+                height={120}
                 quality={100}
               />
             </div>
             <div className="w-2/3 md:w-1/2">
-              <p className="text-sm lg:text-lg md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem deserunt voluptas aut tempore, omnis aperiam dolorum culpa officiis</p>
+              <p className="text-sm lg:text-lg md:text-base">Product Of Web Studio Nepal</p>
             </div>
           </div>
           

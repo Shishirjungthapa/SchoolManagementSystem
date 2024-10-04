@@ -50,8 +50,8 @@ function Navbar() {
     <>
       <div className="absolute flex items-center justify-between w-full h-20 gap-6 px-8 overflow-hidden md:relative md:px-6 lg:px-10">
         <div className="relative z-10 flex flex-row items-center justify-between w-full text-center text-white ">
-          <div className="flex items-center">
-            <img src="/images/webstudionepal.png" className="h-10 cursor-pointer w-18 md:w-20 md:h-10 lg:w-28 lg:h-14" alt="logo" />
+          <div className="flex items-start justify-start">
+            <img src="/images/schoolmanagementlogo.png" className="-ml-2 cursor-pointer size-40 md:size-48 lg:size-64" alt="logo" />
           </div>
 
           {/* Desktop Menu */}
@@ -102,7 +102,7 @@ function Navbar() {
       <div className={`fixed inset-y-0 left-0 z-40 w-4/5 transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out bg-white shadow-lg md:hidden`}>
         <div className="relative flex flex-col items-center w-auto h-auto pt-6">
           <CloseIcon className="absolute text-gray-700 scale-150 cursor-pointer sm:size-7 size-6 top-4 right-4" onClick={() => setMenuOpen(false)} />
-          <div className="flex flex-col items-center w-full h-full max-h-[75vh] overflow-y-auto mt-10 gap-y-1">
+          <div className="flex flex-col items-center w-full h-full max-h-[77vh] overflow-y-auto mt-10 gap-y-1">
             {menus.map((menu, index) => (
               <div key={index} className={`flex flex-col items-start justify-center w-full p-4 pl-0 text-xl font-semibold scale-90 rounded-xl hover:text-primary hover:bg-gray-200 `} onClick={() => handleMenuClick(menu,index)} >
                 <div className="flex flex-row pl-[8%] justify-between items-center w-full">
@@ -114,9 +114,9 @@ function Navbar() {
                 </div>
 
                 {secondaryMenuOpen === index && menu.secondaryMenu && (
-                  <div className="flex flex-col w-full pt-4 pl-4">
+                  <div className="flex flex-col w-full pt-3 pl-4">
                     {menu.secondaryMenu.map((subMenu, subIndex) => (
-                      <Link key={subIndex} href={subMenu.link} className="flex items-center w-full p-3 pl-8 text-lg font-semibold text-black scale-90 rounded-xl hover:text-primary hover:bg-gray-200">
+                      <Link key={subIndex} href={subMenu.link} className="flex items-center w-full p-3 pl-8 text-lg font-semibold text-black scale-90 border rounded-xl hover:text-primary hover:bg-gray-200">
                         {subMenu.label}
                       </Link>
                     ))}
@@ -124,8 +124,10 @@ function Navbar() {
                 )}
               </div>
             ))}
+            <div className="w-full px-4 pb-10">
+              <button className="w-full h-12 pb-1 mt-3 text-lg text-white duration-500 rounded-lg bg-gradient-to-r from-primary to-secondary hover:scale-105 hover:ease-in-out hover:transition-transform hover:shadow-xl hover:from-[#F5365C] hover:to-[#FB6340] hover:text-white transition-all ease-in-out">Login</button>
+            </div>
 
-            <button className="w-32 h-12 pb-1 mt-3 text-lg text-white duration-500 rounded-lg bg-gradient-to-r from-primary to-secondary hover:scale-105 hover:ease-in-out hover:transition-transform hover:shadow-xl">Login</button>
           </div>
         </div>
       </div>

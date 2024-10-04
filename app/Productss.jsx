@@ -25,7 +25,7 @@ function Productss() {
                     <div className="relative z-10 flex flex-col items-center w-full pt-0 sm:pl-0 sm:pt-10 sm:flex-row md:flex-row justify-evenly lg:pt-10 md:pt-20 lg:flex-row lg:pr-0 lg:pl-0 md:pl-0 md:pr-2">
                         {/* Left Side: Text */}
                         <div className="flex flex-col w-5/6 gap-0 pt-10 pl-0 pr-10 -ml-14 sm:-ml-0 sm:gap-8 sm:pl-2 sm:w-1/2 sm:pr-12 md:pr-24 lg:pl-16 md:pl-7 md:w-1/2 lg:w-1/2">
-                            <h1 className="pr-[35%] text-sm font-medium text-justify text-white scale-90 md:text-left sm:scale-100 lg:text-xl md:text-base sm:pr-0 sm:mt-0 md:mt-0 mt-10">
+                            <h1 className="md:pr-[35%] pr-0 text-sm font-medium text-justify text-white scale-90 md:text-left sm:scale-100 lg:text-xl md:text-base sm:pr-0 sm:mt-0 md:mt-0 mt-10">
                             The Ultimate School ERP With Mobile App For Modern School System
                             </h1>
                             <p className="w-3/4 pr-10 text-sm font-normal text-justify text-white scale-90 sm:pr-5 md:pr-0 lg:pr-0 sm:w-full sm:scale-100 lg:text-xl md:text-base">

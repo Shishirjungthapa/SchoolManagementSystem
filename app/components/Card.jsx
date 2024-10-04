@@ -29,7 +29,7 @@ const Card = ({
             </span>
         ):null
     } */}
-          {/* Toggle Button */}
+          {/* Toggle Button
           <div className="absolute top-4 right-4">
         <button
           onClick={handleToggle}
@@ -37,7 +37,7 @@ const Card = ({
         >
           {isYearly ? 'Yearly' : 'Monthly'}
         </button>
-      </div>
+      </div> */}
 
 
 
@@ -47,11 +47,11 @@ const Card = ({
             <p className="mb-3 text-lg font-semibold text-left lg:text-2xl md:text-xl">{name}</p>
             <div className="flex flex-col items-start justify-start gap-y-1">
                 <div className="flex items-start">
-                    <p className="text-xl font-medium lg:text-3xl md:text-2xl">{currency}</p>
+                    {/* <p className="text-xl font-medium lg:text-3xl md:text-2xl">{currency}</p>
                     <p className="text-2xl font-bold lg:text-5xl md:text-4xl">
                     {isYearly ? annualPrice : monthlyPrice}
-                    </p>
-                    <p className={`lg:text-2xl md:text-xl text-lg ${featured ? "text-gray-300": "text-gray-500"}`}>/{isYearly ? 'year' : 'month'}</p>
+                    </p> */}
+                    {/* <p className={`lg:text-2xl md:text-xl text-lg ${featured ? "text-gray-300": "text-gray-500"}`}>/{isYearly ? 'year' : 'month'}</p> */}
                 </div>
             <p className='text-sm font-medium lg:text-lg md:text-base'>{description}</p>
             </div>
